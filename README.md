@@ -1,6 +1,5 @@
 # python_learning
 
-Log:
 Week 1: 
     5/4/2024: 
         Installed python, VSCode, Git on devices - synced (win/macOS)
