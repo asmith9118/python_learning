@@ -3,9 +3,9 @@
 Log:
 Week 1: 
     5/4/2024: 
-            Installed python, VSCode, Git on devices - synced (win/macOS)
-            Installed minicondas (win/macOS) and homebrew (macOS) 
-            Python Data Science Handbook: Read up to chapter on Numpy
+        Installed python, VSCode, Git on devices - synced (win/macOS)
+         Installed minicondas (win/macOS) and homebrew (macOS) 
+        Python Data Science Handbook: Read up to chapter on Numpy
 
     5/9/2024:
         Climbed, hiked 8.0 miles
