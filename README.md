@@ -1,16 +1,22 @@
 # python_learning
 
 Log:
-5/4/2024: 
-    Installed python, VSCode, Git on devices - synced (win/macOS)
-    Installed minicondas (win/macOS) and homebrew (macOS) 
-    Python Data Science Handbook: Read up to chapter on Numpy
+Week 1: 
+    5/4/2024: 
+            Installed python, VSCode, Git on devices - synced (win/macOS)
+            Installed minicondas (win/macOS) and homebrew (macOS) 
+            Python Data Science Handbook: Read up to chapter on Numpy
 
-5/9/2024:
-    Climbed, hiked 8.0 miles
-    Finished first chapter on numpy arrays
-    Stay motivated, your work remains unfinished 
+    5/9/2024:
+        Climbed, hiked 8.0 miles
+        Finished first chapter on numpy arrays
+        Stay motivated, your work remains unfinished 
 
+    5/12/2024:
+        Chapter 6: Computation on Numpy Arrays: Universal Functions
+        Activities: Climbed, played guitar, sang read Goggins, talked to mom and dad, walked cats, yoga, journal, 
+        Utilized ChatGPT for defining a learning program 
+        Utilized ChatGPT for learning python: debuging, defining funtions
 
 Phase 1: Python Proficiency (1-3 months)
     Weeks 1-4: Python Basics Refresher
