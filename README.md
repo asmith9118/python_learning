@@ -30,8 +30,6 @@ Week 1:
         setting up conda environment:
             conda create --prefix C:\Users\Anthony\mushrooms python R numpy pandas scikit-learn tensorflow matplotlib seaborn requests beautifulsoup4 jupyter r-essentials
 
-        jupyter kernelspec list
-
         pip install rpy2[full]
 
         Python kernel:
@@ -43,6 +41,8 @@ Week 1:
             install.packages("devtools")
             devtools::install_github("IRkernel/IRkernel")
             IRkernel::installspec()
+
+        jupyter kernelspec list
 
         rpy kernel:
             kernel.json
