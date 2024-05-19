@@ -19,46 +19,47 @@ Week 1:
 
     5/19/2024: 
         deep dive into kernels, set up rpy2 and have a kernel with the setting below saved in .json file
-
+        
         overall I'm very happy with the progression today,
-        continued to use chatGPT for help and it has been a lifesaver 
+        continued to use chatGPT for help and it has been a lifesaver :
 
-        some things saved during setup and troubleshooting:
+        notepad $PROFILE for powershell settings that preloaded the mushrooms conda environment:
+            conda activate ./mushrooms
+            Remove-Item alias:r
 
-        notepad $PROFILE for powershell settings that preloaded the mushrooms conda environment 
-
-        conda create --prefix C:\Users\Anthony\mushrooms python R numpy pandas scikit-learn tensorflow matplotlib seaborn requests beautifulsoup4 jupyter r-essentials
+        setting up conda environment:
+            conda create --prefix C:\Users\Anthony\mushrooms python R numpy pandas scikit-learn tensorflow matplotlib seaborn requests beautifulsoup4 jupyter r-essentials
 
         jupyter kernelspec list
 
         pip install rpy2[full]
 
-        pip install ipykernel
-        python -m ipykernel install --user --name mypythonkernel --display-name "Python (mypythonkernel)"
+        Python kernel:
+            pip install ipykernel
+            python -m ipykernel install --user --name mypythonkernel --display-name "Python (mypythonkernel)"
 
         Open any R session (e.g. in RStudio is fine, or open terminal/bash and type R to start an R session).
         Install the kernel with:
-
             install.packages("devtools")
             devtools::install_github("IRkernel/IRkernel")
             IRkernel::installspec()
 
-        rpy
-        kernel.json
-            {
-            "display_name": "rpy",
-            "language": "python",
-            "argv": [
-                "python",
-                "-m",
-                "ipykernel_launcher",
-                "-f",
-                "{connection_file}"
-            ],
-            "env": {
-                "R_HOME": "C:/Users/Anthony/mushrooms/Lib/R" 
-            }
-            }
+        rpy kernel:
+            kernel.json
+                {
+                "display_name": "rpy",
+                "language": "python",
+                "argv": [
+                    "python",
+                    "-m",
+                    "ipykernel_launcher",
+                    "-f",
+                    "{connection_file}"
+                ],
+                "env": {
+                    "R_HOME": "C:/Users/Anthony/mushrooms/Lib/R" 
+                }
+                }
 
 
 
