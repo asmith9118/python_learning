@@ -60,8 +60,12 @@ Week 1:
                     "R_HOME": "C:/Users/Anthony/mushrooms/Lib/R" 
                 }
                 }
+    5/20/24:
+        Started lecture series on linear algebra: https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/download/ - I looked at the problem sets and they give me anxiety because I don't understand the language. I understand programming though, and I am pleased with my knowledge of matrixes. 
 
+        Created numpy_cheatsheet, tried to use ChatGPT to format into colors but ran out of space
 
+        Walked the cats, played a little bit of guitar, watched nuggets lose unforuntately, 40m yoga, bought weed, read goggins, signed up for meal kit service. Created goals for tomorrow. Stay motivated and attack the day. Go to sleep in the black. I want to read more  books about military leadership and training, I think. 
 
 Phase 1: Python Proficiency (1-3 months)
     Weeks 1-4: Python Basics Refresher
