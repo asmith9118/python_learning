@@ -28,7 +28,7 @@ Week 1:
             Remove-Item alias:r
 
         setting up conda environment:
-            conda create --prefix C:\Users\Anthony\mushrooms python R numpy pandas scikit-learn tensorflow matplotlib seaborn requests beautifulsoup4 jupyter r-essentials
+            conda create --prefix C:\Users\Anthony\mushrooms python R numpy sympy pandas scikit-learn tensorflow matplotlib seaborn requests beautifulsoup4 jupyter r-essentials
 
         pip install rpy2[full]
 
