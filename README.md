@@ -59,3 +59,17 @@ if (Test-Path $condaHook) {
 } else {
     Write-Host "WARNING: Conda not found!"
 }
+
+
+Current VScode settings.json: 
+{
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "r.rterm.windows": "C:\\Users\\Anthony\\mushrooms\\Scripts\\R.exe",
+    "polyglot-notebook.defaultNotebookExtension": ".ipynb",
+    "polyglot-notebook.kernelEnvironmentVariables": {},
+    "jupyter.jupyterServerCommand": "node",
+    "jupyter.nodePath": "C:\\nvm4w\\nodejs\\node.exe",
+    "jupyter.kernels.trusted": ["javascript"]
+}   
